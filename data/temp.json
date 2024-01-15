@@ -1,0 +1,563 @@
+{
+    "common": {
+        "overviewPannel": {
+            "overView": "OVERVIEW",
+            "showMore": "Show more"
+        },
+        "modules": {
+            "videos": {
+                "title": "TEst test"
+            },
+            "games": {
+                "title": "Games"
+            },
+            "outstanding": {
+                "title": "Outstanding Tasks"
+            },
+            "announcements": {
+                "title": "Announcements"
+            },
+            "notification": {
+                "title": "Notifications & Announcements",
+                "button": "Notifications"
+            },
+            "rules": {
+                "title": "FAQs"
+            },
+            "articles": {
+                "title": "Articles"
+            },
+            "infographics": {
+                "title": "Infographics"
+            },
+            "training": {
+                "title": "Training"
+            },
+            "vitals": {
+                "title": "Vitals",
+                "phishing": "Phishing",
+                "mobile": "Mobile",
+                "dlp": "DLP",
+                "training": "Training",
+                "awareness": "Awareness",
+                "email": "Email",
+                "web": "Web"
+            },
+            "tnc": {
+                "title": "Terms & Conditions"
+            },
+            "leaderboard": {
+                "title": "Leaderboard",
+                "activities": "User Activities",
+                "allianceBonus": "Alliance Activity Bonus",
+                "allianceChallangeBonus": "Alliance Challenges Bonus"
+            },
+            "alliance": {
+                "title": "Alliance"
+            },
+            "htmls": {
+                "title": "Web pages"
+            }
+        },
+        "label": {
+            "email": "Email",
+            "all": "All",
+            "alliance": "Alliance",
+            "leader": "Leader",
+            "members": "Members",
+            "done": "Done",
+            "recommendTitle": "Recommended Reading",
+            "otp": "OTP",
+            "home": "Home",
+            "challenges": "Challenges",
+            "instruction": "Instruction",
+            "noData": "No data available at the moment",
+            "noDataOutStanding": "No outstanding task",
+            "noDataTraining": "No training task",
+            "pts": "pts",
+            "day": "day",
+            "clearAll": "Clear All",
+            "leaderboardButton": "Leaderboard",
+            "allianceButton": "Alliance board",
+            "notification": "Notifications",
+            "myScore": "My Score oke",
+            "allianceScore": "Alliance Score oke",
+            "profile": "Profile",
+            "section": "Section ",
+            "doneDailyChallenges": "Hooray! You are done with the Daily Challenges!",
+            "watchAgain": "Watch Again",
+            "enterprise": "Enterprise Site",
+            "taskAside": "OPEN TASK(s)",
+            "toHome": "Lead to Alliance board",
+            "sumary": "Summary"
+        },
+        "error": {
+            "uploadError": "Upload error! Please try again.",
+            "loginFail": "Login failed. Please try again.",
+            "loginBlock": "Access denied. You are not allowed to log in.",
+            "sendError": "Unable to send email. Please try again.",
+            "sendErrorMax": "Unable to send email. Maximum number of invitations reached.",
+            "alreadyJoin": "You have already joined an alliance.",
+            "getAllianceUnsuccess": "Failed to retrieve alliance members.",
+            "getLeaderboardUnsuccess": "Failed to retrieve alliance leaderboard data.",
+            "deleteAlliance": "Failed to delete alliance.",
+            "acceptInviteFail": "Failed to accept invitation. Please return to the home page.",
+            "invitationFail": "Accept invitation unsuccessful",
+            "reassignFail": "Failed to reassign leader.",
+            "deleteMemberFail": "Failed to delete member.",
+            "leaveFail": "Failed to leave alliance.",
+            "whenPlayYt": "Internet access is required to play this video.",
+            "whenPlayVideo": "Unable to play this video.",
+            "maxMember": "Alliance reached max member",
+            "join_request_not_found": "Join request not found",
+            "alliance_leader_not_found": "Alliance leader not found",
+            "alliance_user_not_leadership": "You must be leadership of this alliance",
+            "invitation_id_not_found": "Invitation id not found",
+            "alliance_not_found": "Alliance not found",
+            "user_not_existed": "User not existed",
+            "referral_expired": "Referral expired",
+            "user_has_joined_another_alliance": "User has joined another alliance",
+            "alliance_reach_max_member": "Alliance reached max member",
+            "acceptInvitation": {
+                "invitation_id_not_found": "Oops! We couldn’t find that invitation. Please ensure the link is correct or try again later.",
+                "alliance_not_found": "We're sorry, but the alliance you're trying to join no longer exists. It may have been deleted.",
+                "user_not_existed": "The user who invited you seems to no longer be a part of our system. They may have been removed.",
+                "referral_expired": "This referral has expired. You might want to check if there’s a newer link or contact the person who invited you.",
+                "user_has_joined_another_alliance": "It looks like you’ve already joined a different alliance. If this is an error, please reach out to our support team.",
+                "alliance_reach_max_member": "This alliance <allianceName> is at full capacity and cannot accept new members at the moment. You might want to explore other alliances or check back later."
+            },
+            "acceptJoinRequest": {
+                "join_request_not_found": "Oops! We couldn't locate the join request. Please ensure you have the right details and try again.",
+                "alliance_not_found": "We're sorry, but the alliance you're trying to connect with no longer exists. It might have been removed.",
+                "alliance_user_not_leadership": "This action can't be completed. Only alliance leadership has the authority to accept join requests.",
+                "user_has_joined_another_alliance": "It seems the user you're trying to add has already joined a different alliance.",
+                "alliance_reach_max_member": "This alliance has reached its maximum member capacity."
+            },
+            "rejectJoinRequest": {
+                "join_request_not_found": "Sorry, we couldn't find the join request you're referencing. Please double-check and try again.",
+                "alliance_not_found": "It appears the alliance has been deleted. You might want to explore other options.",
+                "alliance_user_not_leadership": "Access denied. Only the alliance's leader can reject join requests."
+            },
+            "removeMembers": {
+                "alliance_user_not_found": "The member you're trying to remove isn't part of this alliance. Please check and try again.",
+                "alliance_user_you_not_member": "It seems you're not a member of this alliance. Only members can initiate removal actions.",
+                "alliance_user_not_leadership": "Only the alliance leader has the authority to remove members.",
+                "alliance_user_can_not_remove_yourself": "You can't remove yourself from the alliance through this action. If you wish to leave, choose the Leave Alliance option."
+            },
+            "leaveAlliance": {
+                "alliance_user_can_not_leave_since_you_leader": "You cannot remove yourself from the alliance through this action. Please reassign the leadership first before leaving the alliance. Alternatively you can delete the alliance."
+            },
+            "reassignLeadership": {
+                "alliance_user_you_not_member": "You are not a member of this alliance, hence you cannot reassign leadership roles.",
+                "alliance_user_not_leadership": "You are not the leader of this alliance, hence you cannot reassign leadership roles.",
+                "alliance_user_new_leader_not_existed": "It seems the user you're trying to assign as a new leader doesn't exist in our system. Please check the details and try again.",
+                "alliance_user_new_leader_not_member": "The selected user for the new leadership role isn't a member of this alliance. Please choose a valid alliance member.",
+                "alliance_user_can_not_reassign_leader_to_yourself": "Leadership reassignment cannot be directed to oneself. Please choose a different alliance member for the role."
+            },
+            "joinRequest": {
+                "alliance_reach_max_member": "This alliance is full! Please consider joining another alliance or check back later.",
+                "alliance_not_found": "The alliance you're trying to access no longer exists or has been deleted."
+            },
+            "deleteAllianceError": {
+                "alliance_user_you_not_member": "You are not a member of this alliance. Only members have the privilege to delete the alliance.",
+                "alliance_not_found": "The alliance you're attempting to access or delete no longer exists.",
+                "alliance_user_not_leadership": "Only the leaders of this alliance have the authority to delete it.",
+                "alliance_user_delete_unsuccessful": "We ran into an unexpected issue while trying to delete members from this alliance. Please try again later or contact support."
+            },
+            "updateAlliance": {
+                "alliance_user_you_not_member": "You're not a member of this alliance, hence you cannot update its information.",
+                "alliance_not_found": "The alliance you're trying to update doesn't seem to exist anymore.",
+                "alliance_user_not_leadership": "Only the leader of this alliance can update its information.",
+                "alliance_name_existed": "This alliance name is already in use on our platform. Please choose a unique name."
+            }
+        },
+        "toast": {
+            "videoCompleted": "Video completed!",
+            "updateProfileCompleted": "Profile updated successfully.",
+            "updateProfileError": "Failed to update profile. Please try again.",
+            "acceptInviteSuccess": "Invitation accepted successfully",
+            "invitationSuccess": "Join request accepted successfully.",
+            "reassignSuccess": "Leader reassigned successfully.",
+            "leaveSuccess": "Successfully left the alliance.",
+            "notSupportGameMobileDevice": "This game is not supported on mobile devices",
+            "deleteMember": "Member successfully deleted."
+        },
+        "status": {
+            "completed": "Completed",
+            "pending": "Pending"
+        },
+        "notification": {
+            "title": {
+                "admin_amend": "Admin Adjustments: <reason>",
+                "join_alliance_leader_receive_join_request": "New Member Alert! An alliance join request from <name||email> is waiting for your review.",
+                "join_alliance_join_request_accepted": "Congratulations! Your request to join the Alliance, <allianceName> has been accepted.",
+                "join_alliance_join_request_rejected": "Your request to join the <allianceName> has been declined. Explore other alliances.",
+                "reassign_leadership_by_admin_old_leader": "Alert! The site admin has reassigned the leadership of <allianceName> to <email>, please contact the site admin for assistance.",
+                "reassign_leadership_by_admin_new_leader": "Alert! The site admin has reassigned the leadership of <allianceName> to you.",
+                "reassign_leadership_by_admin_other_mems": "Alert! The site admin has reassigned the leadership of <allianceName> to <email>.",
+                "reassign_leadership_by_leader_new_leader": "Alert! The leadership of <allianceName> has been reassigned to you by the previous leader.",
+                "reassign_leadership_by_leader_other_mems": "Alert! The leadership of <allianceName> has been reassigned to <email> by the previous leader.",
+                "leave_alliance_by_admin_other_mems": "Alert! The site admin has removed <emails> from <allianceName>.",
+                "leave_alliance_by_admin_removed_mem": "Alert! The site admin has removed you from the alliance, please contact the site admin for assistance.",
+                "leave_alliance_by_leader_other_mems": "Alert! The alliance leader has removed <emails> from <allianceName>.",
+                "leave_alliance_by_leader_removed_mem": "Alert! The alliance leader has removed you from the <allianceName>.",
+                "leave_alliance_by_member_other_mems": "Alert! <email> has left your alliance.",
+                "delete_alliance_by_admin_all_mems": "Alert! Your alliance has been deleted by the site admin, please contact the site admin for assistance.",
+                "delete_alliance_by_leader_other_mems": "Alert! Your <allianceName> has been disbanded. Please explore other alliances to join.",
+                "alliance_referral_invitation_is_accepted": "Congratulations! <email> has accepted your invitation to the Alliance, <allianceName>.",
+                "alliance_referral_user_accepted_invitation": "Congratulations! You have joined the Alliance, <allianceName>.",
+                "alliance_referral_invitation": "You have received an invitation from <email> to join the Alliance, <allianceName>.",
+                "site_referral_invitation_is_accepted": "Congratulations! <email> has accepted your invitation to the Campaign, <siteBrand>.",
+                "alliance_challenge_completed_all_members": "Congratulations! Your alliance has completed Alliance Challenge <allianceChallenge>.",
+                "alliance_referral_user_accepted_other_invitation":"<email> has accepted another alliance invitation.",
+                "site_referral_invitation_user_accepted_other_invitation":"<email> has accepted another invitation to <site brand>.",
+                "announcement": ""
+            },
+            "content": {
+                "join_alliance_leader_receive_join_request": "<email> would like to join your alliance",
+                "alliance_referral_invitation": "<email> would like to invite you to join <allianceName>."
+            },
+            "allianceActivity": {
+                "leave_alliance": "You have left alliance <allianceName> and lost all your alliance bonus from <allianceName> .",
+                "alliance_referral": "You have invited <name> to alliance <allianceName> successfully.",
+                "accept_alliance_invitation": "You have accepted <name> invite to alliance <allianceName>."
+            },
+            "modal": {
+                "confirm": "Are you sure you want to clear all notifications?"
+            }
+        },
+        "message": {
+            "alliance": {
+                "message": "Looks like you have not join any Alliance",
+                "youHave": "You have",
+                "invite": "Invite Alliance",
+                "congratulations": "Congratulations! You have created your Alliance! Now start inviting members",
+                "oneTeam": "One team can only have",
+                "members": "members",
+                "emailValidate": "Input must be email format",
+                "refer": "Refer a friend",
+                "referMember": "Refer more members",
+                "referMessage": "Enjoying the campaign, why not refer a friend ?",
+                "join": "Request to Join",
+                "confirmJoinMessage": "Are you sure you want to join this alliance?",
+                "confirmJoinMessageTitle": "Confirm Join Alliance",
+                "referralSent": "Referral Sent",
+                "returnHome": "Return Home Page",
+                "joinAlliance": "has invited you to join alliance",
+                "wantJoin": "wants to join your team",
+                "noName": "Anonymous",
+                "joinOrCreate": "Join or Create",
+                "inviteToAlliance": "Invite to Alliance",
+                "empty": "Input field must not be empty",
+                "referFriend": "Refer a friend to "
+            },
+            "notAllowPage": "Sorry, You are not allowed to access this page",
+            "userOnBlacklist": "You are not allowed to access",
+            "filter": {
+                "name": "Filter",
+                "showMore": "Show more",
+                "showLess": "Show less"
+            }
+        },
+        "button": {
+            "createAlliance": "Create Alliance",
+            "joinAlliance": "Join Alliance",
+            "resignAlliance": "Reassign Leader",
+            "deleteAlliance": "Delete Alliance",
+            "leaveAlliance": "Leave Alliance",
+            "submit": "Submit",
+            "send": "Send",
+            "ok": "OK",
+            "cancel": "Cancel",
+            "prev": "Previous",
+            "next": "Next",
+            "search": "Search",
+            "confirmLeaveAlliance": "Confirm Leaving?",
+            "startGame": "Click to Start",
+            "signIn": "Sign In",
+            "verify": "Verify",
+            "reject": "Reject",
+            "accept": "Accept",
+            "clickStart": "Click to start",
+            "removeMember": "Remove Member",
+            "done": "Done",
+            "assign": "Assign as Leader",
+            "loadmore": "Load more",
+            "showless": "Show less",
+            "seemore": "See More"
+        },
+        "role": {
+            "admin": "Leader",
+            "member": "Member"
+        },
+        "sort":{
+            "title": "Sort by: ",
+            "newest": "Newest",
+            "oldest": "Oldest"
+        }
+    },
+    "desktop": {
+        "enterprise": {
+            "header": {
+                "menu": {
+                    "vital": "Vitality Score",
+                    "announcements": "Announcements",
+                    "training": "Training",
+                    "notification": "Notifications",
+                    "leaderboard": "Leaderboards",
+                    "alliance": "Alliances",
+                    "rules": "FAQs",
+                    "awareness": {
+                        "title": "Awareness",
+                        "children": {
+                            "articles": "Articles",
+                            "infographics": "Infographics",
+                            "videos": "Videos",
+                            "games": "Games"
+                        }
+                    },
+                    "logout": "Logout"
+                }
+            },
+            "aside": {
+                "userInfo": {
+                    "globalRank": "Global Rank",
+                    "allianceRank": "Alliance Rank"
+                },
+                "alliance": {
+                    "joinButton": "Click here to start",
+                    "referFriendButton": "Refer a friend to "
+                },
+                "campaign": {
+                    "navigate": " Campaign"
+                }
+            },
+            "landing": {
+                "summaryProcess": {
+                    "vitals": "Vitals",
+                    "alliance": "Alliance",
+                    "leaderBoard": "Leaderboard",
+                    "task": "Task",
+                    "of": "of"
+                }
+            },
+            "profile": {
+                "title": "Profile",
+                "uploadAlliance": "Upload Avatar",
+                "profileImage": "Profile Image",
+                "email": "Email",
+                "city": "City",
+                "country": "Country",
+                "jobTitle": "Job Title",
+                "department": "Department",
+                "postalCode": "Postal Code",
+                "name": "Name",
+                "division": "Division"
+            },
+            "detailPage": {
+                "recommendTitle": "Recommended Reading",
+                "recommendTitleVideo": "Recommended Watching"
+            },
+            "alliance": {
+                "allianceCenter": {
+                    "benefitTitle": "Alliance Benefits",
+                    "leaderboardTitle": "Alliance Leaderboard",
+                    "benefit": "Earn extra points through completing alliance challenges. Play with your friends and rise up in the alliance leadership board"
+                },
+                "allianceLeaderboard": {
+                    "memberTitle": "Alliance Members",
+                    "leaderboardTitle": "Alliance Leaderboard",
+                    "challangesTitle": "Alliance Challenges",
+                    "choose": "Choose the member(s) you want to act on",
+                    "allianceDesc": "Click on the arrow to reassign leadership or remove member",
+                    "allianceChallenge": "Alliance Challenges Bonus",
+                    "allianceChallengeDesc": "Earn more points by completing alliance challenges! (Progress is updated daily.) ",
+                    "viewLeaderBoard": "View Leaderboard",
+                    "table": {
+                        "name": "Alliance Name",
+                        "point": "Alliance Point",
+                        "activity": "Alliance Activity"
+                    },
+                    "tableChallange": {
+                        "allianceChallange": "Alliance Challenges ",
+                        "pts": "Pts",
+                        "progress": "Progress"
+                    },
+                    "challengers": {
+                        "alliance_read_article": "<numMems> members read at least <numObjs> articles during the campaign",
+                        "alliance_watch_video": "<numMems> members watch at least <numObjs> videos during the campaign",
+                        "alliance_play_game": "<numMems> members play at least <numObjs> games during the campaign"
+                    },
+                    "allianceBonus": {
+                        "alliance_read_article": "Finish alliance challenge on alliance <allianceName>: <numMems> members read at least <numObjs> articles during the campaign",
+                        "alliance_watch_video": "Finish alliance challenge on alliance <allianceName>: <numMems> members watch at least <numObjs> videos during the campaign",
+                        "alliance_play_game": "Finish alliance challenge on alliance <allianceName>: <numMems> members play at least <numObjs> games during the campaign"
+                    }
+                },
+                "createAlliance": {
+                    "uploadAlliance": "Upload Alliance",
+                    "profileImage": "Profile Image",
+                    "namePlaceholder": "E.g. Team Titans",
+                    "nameMessage": "Alliance Name (Max 15 Characters)",
+                    "descPlaceholder": "Optional : e.g. We stands to lead",
+                    "descMessage": "Alliance Description (Max 50 Characters)",
+                    "message1": "Image requirements",
+                    "message2": "Your image must be at least 300 x 300 , maximum 500 x500",
+                    "message3": "PNG, JPG image files only ",
+                    "message4": "    Image filename must not contain special characters (e.g. & % # ^ @ ... etc. )",
+                    "message5": "You have",
+                    "message6": " left for the next",
+                    "message7": "day.",
+                    "message8": "Your alliance have",
+                    "message9": "vacancies left",
+                    "message10": "Please check back after",
+                    "message11": " for more invites.",
+                    "message12": " left.",
+                    "days": "days",
+                    "day": "day",
+                    "invite": "invite",
+                    "invites": "invites",
+                    "no": "no"
+                },
+                "reassignLeader": {
+                    "description": "Reassign Leader",
+                    "allianceMembers": "Alliance Members",
+                    "message": "Select the member you would like to assign the Leadership",
+                    "modalTitle": "Confirm Reassignment",
+                    "reassignMessage": "You are about to reassign leadership to ",
+                    "reassignMessageWarning": "This action is irreversible."
+                },
+                "deleteLeader": {
+                    "title": "Delete Alliance",
+                    "description": "Note : You cannot undo this action",
+                    "allianceMembers": "Alliance Members",
+                    "message": "Note : The following members will be affected",
+                    "modalTitle": "Confirm Deletion",
+                    "modaleDecs": "You are about to delete this alliance.",
+                    "modaleDecs2": "This process is irreversible.",
+                    "modaleDecs3": "All the members will lose their Alliance Points",
+                    "deleteMember1": "You are about to remove ",
+                    "deleteMember2": " from your alliance",
+                    "warning": "Warning",
+                    "warningAgain": "The user will lose all his Alliance points"
+                },
+                "joinAlliance": {
+                    "table": {
+                        "allianceName": "Alliance Name",
+                        "leader": "Leader",
+                        "member": "Member"
+                    },
+                    "title": "Join Alliance",
+                    "noAlliance": "You are not part of any Alliance",
+                    "noAllianceDesc": "Join or Create an Alliance to participate in the Alliance Challenges!",
+                    "desciption": "Select the alliance you want to join or create your own",
+                    "invitation": " has invited you to join alliance ",
+                    "request": " want to join your team ",
+                    "modal": {
+                        "title": "Confirm Join Alliance",
+                        "desc": "Are you sure you want to join this alliance?",
+                        "acceptJoinTile": "Confirm Join Request Acceptance"
+                    },
+                    "searchBoxPlaceholder": "Search for an alliance"
+                },
+                "leaveAlliance": {
+                    "confirmMessage": "You are about to leave an alliance. All your activities within this alliances will be removed.",
+                    "confirmMessage2": "You will lose all your Alliance Points",
+                    "confirmMessage3": "You are about to leave this alliance.",
+                    "confirmMessage4": "You will lose all your Alliance Points.",
+                    "confirmMessage5": "This process is irreversible."
+                },
+                "sendEmail": {
+                    "text1": "These emails",
+                    "text2": "are not in",
+                    "text3": "yet",
+                    "text4": "go to",
+                    "text5": "Refer a Friend",
+                    "text6": "to invite them into",
+                    "alreadyJoinedAnotherAllianceText": "These email addresses have already joined another alliance.",
+                    "alreadyJoinedYourAllianceText": "These email addresses have already joined your alliance.",
+                    "alreadyJoinedSiteText": "These email addresses have already joined the campaign.",
+                    "alreadyJoinedSiteTextAlliance": "These email addresses have already joined the alliance.",
+                    "alreadyAlreadySentBefore": "You have already sent an invitation to these email addresses.",
+                    "emailAlreadySentBeforeText": "You have already sent an invitation to",
+                    "notActiveText": "These email addresses are disabled. Please ask the owners to contact the administrator for assistance.",
+                    "emailAddressesText": "email addresses",
+                    "isDisabledText": "is disabled.",
+                    "hasAlreadyJoinedAnotherAllianceText": "has already joined another alliance",
+                    "isAlreadyInYourAllianceText": "is already in your alliance",
+                    "isAlreadyInYourSiteText": "is already in the campaign!.",
+                    "isAlreadyInYourSiteTextAlliance": "is already in the alliance!.",
+                    "askOwnersToContactAdminText": "Please ask the owners to contact the administrator for assistance.",
+                    "youHaveSentInvitationText": "You have already invite <email> to this campaign!.",
+                    "youHaveSentInvitationTextAlliance": "You have already invite <email> to this alliance!.",
+                    "emailsSuccess": "These invitations have been sent successfully:",
+                    "emailOneSuccess": "You have successfully invited <email> to this campaign!",
+                    "emailOneSuccessAlliance": "You have successfully invited <email> to this alliance!",
+                    "notAllowedEmailExternal": "Referrals to external domains are not allowed:"
+                },
+                "update": {
+                    "success": "Alliance updated successfully",
+                    "failed": "Alliance update failed",
+                    "alreadyExist": "The alliance name already exists",
+                    "delete": "Delete Alliance (Note that this action is irreversible)"
+                },
+                "referralSent": {
+                    "siteInvite": "You have sent a campaign invite <email>",
+                    "allianceInvite": "You have sent an alliance invite <email>"
+                }
+            },
+            "telemetry": {
+                "column": {
+                    "date": "Date",
+                    "task": "Task",
+                    "status": "Status",
+                    "dateComplete": "Date Completed",
+                    "dateAssigned": "Date Assigned",
+                    "activities": "Activities",
+                    "point": "Pts"
+                }
+            },
+            "leaderboard": {
+                "column": {
+                    "email": "Email",
+                    "market": "Market",
+                    "rank": "Rank",
+                    "total": "Total Point",
+                    "country": "Market",
+                    "bussinessUnit": "Department",
+                    "point": "Points",
+                    "bonus": "Bonus"
+                },
+                "filter": {
+                    "country": "Select Country",
+                    "market": "Select Market",
+                    "bussinessUnit": "Select Department",
+                    "search": "Search"
+                },
+                "message": {
+                    "loadMore": "Load more",
+                    "desc": "A maximum of 20 records will be displayed",
+                    "showMore": "Show more",
+                    "showLess": "Show less",
+                    "joinAlliance": "Join an alliance and complete Alliance Challenges to earn more points !",
+                    "joinAlliance2": "You are not part of an alliance, click here to join an alliance",
+                    "joinAllianceButton": "Join An Alliance",
+                    "joinedAlliance": "Yay! You are part of alliance <allianceName>",
+                    "viewAllianceButton": "View Alliance"
+                }
+            }
+        },
+        "campaign": {
+            "profile": {
+                "dailyChallengeCompleted": "Daily Challenges Completed"
+            },
+            "landing": {
+                "instructionchallengers": "Instruction",
+                "challengers": "Challengers"
+            },
+            "leaderBoard": {
+                "message2": "User Telemetry results are referenced from Enterprise Site"
+            }
+        }
+    }
+}
